@@ -1,0 +1,3 @@
+[submodule "Android-SQLiteViewer"]
+	path = sqliteviewer
+	url = https://github.com/a6un/Android-SQLiteViewer
