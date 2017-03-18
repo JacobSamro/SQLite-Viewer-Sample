@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 23
     buildToolsVersion "25.0.0"
 
     defaultConfig {
@@ -24,12 +24,12 @@ dependencies {
     compile('com.github.orangegangsters:lollipin:1.9.1@aar') {
         transitive = true
     }
-    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:appcompat-v7:23.0.0'
     compile 'com.loopj.android:android-async-http:1.4.9'
     compile 'cn.pedant.sweetalert:library:1.3'
     compile 'com.github.devlight.navigationtabbar:library:1.1.8'
     compile 'com.flyco.dialog:FlycoDialog_Lib:1.3.0@aar'
-    compile 'com.android.support:design:25.0.0'
+    compile 'com.android.support:design:23.0.0'
     compile project(":sqliteviewer")
     testCompile 'junit:junit:4.12'
 }
